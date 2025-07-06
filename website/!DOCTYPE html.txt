@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. R. Ball | Official Author Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-semibold">M. R. Ball</h1>
+      <nav>
+        <a href="#books" class="mx-2 hover:text-blue-600">Books</a>
+        <a href="#about" class="mx-2 hover:text-blue-600">About</a>
+        <a href="#news" class="mx-2 hover:text-blue-600">News</a>
+        <a href="#contact" class="mx-2 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-cover bg-center h-96" style="background-image:url('https://images.unsplash.com/photo-1521580656998-9380cdf2989d?fit=crop&w=1200&q=80');">
+    <div class="bg-black bg-opacity-50 h-full flex items-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl md:text-5xl font-bold text-white">Epic Tales, Real Heroes</h2>
+        <p class="mt-4 text-xl text-gray-200 w-full md:w-2/3">Discover the interconnected worlds of Corwin, Kael, and Gareth—grounded fantasy adventures without magic, driven by courage and heart.</p>
+        <a href="#books" class="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg shadow-lg transition">Explore the Books</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Books -->
+  <section id="books" class="py-12">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-semibold mb-8 text-center">Featured Books</h3>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Book Card -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x600" alt="Kael’s Seaborne Legacy cover" class="w-full">
+          <div class="p-6">
+            <h4 class="text-2xl font-bold">Kael’s Seaborne Legacy</h4>
+            <p class="mt-2 text-gray-600">An 80‑chapter sea adventure that sails from loyalty to tragedy.</p>
+            <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+          </div>
+        </div>
+        <!-- Book Card -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x600" alt="The Sands of Valor cover" class="w-full">
+          <div class="p-6">
+            <h4 class="text-2xl font-bold">The Sands of Valor</h4>
+            <p class="mt-2 text-gray-600">Gareth’s perilous journey through the burning deserts of Arydia.</p>
+            <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+          </div>
+        </div>
+        <!-- Book Card -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x600" alt="The Lion &amp; the Raven cover" class="w-full">
+          <div class="p-6">
+            <h4 class="text-2xl font-bold">The Lion &amp; the Raven</h4>
+            <p class="mt-2 text-gray-600">A tale of betrayal, honor, and the cost of power in Elberra.</p>
+            <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+          </div>
+        </div>
+        <!-- New Book Card -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="blood-and-frost-cover.jpg" alt="Blood and Frost cover" class="w-full">
+          <div class="p-6">
+            <h4 class="text-2xl font-bold">Blood and Frost: Marek’s Saga in Varell Teth</h4>
+            <p class="mt-2 text-gray-600">Marek’s fight for redemption in the frozen wilds of Varell Teth.</p>
+            <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-6 md:flex md:items-center">
+      <!-- Cropped author headshot -->
+      <img src="author.jpg" alt="M. R. Ball headshot" class="w-48 h-48 rounded-full object-cover mx-auto md:mx-0 md:mr-8 shadow-lg">
+      <div class="mt-8 md:mt-0">
+        <h3 class="text-3xl font-semibold mb-4">About M. R. Ball</h3>
+        <p class="text-gray-700 leading-relaxed">M. R. Ball is an author of grounded fantasy and seafaring adventures. Born in Las Vegas in 1980, he crafts stories rich with historical realism, moral complexity, and memorable characters. His interconnected series span the continents of Aethirra, from the palace halls of Elberra to the treacherous Iron Horizon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="py-12">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-semibold mb-8 text-center">Latest News &amp; Blog</h3>
+      <div class="space-y-6">
+        <article class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-2xl font-bold mb-2">July 15, 2025 — ‘The Sands of Valor’ Chapter 9 Draft Released!</h4>
+          <p class="text-gray-600">Subscribers get an early look at Gareth’s trial by fire at Shamah’s Veil.</p>
+        </article>
+        <!-- Additional posts can be added here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Newsletter -->
+  <section id="contact" class="bg-blue-600 py-12">
+    <div class="container mx-auto px-6 text-white">
+      <h3 class="text-3xl font-semibold mb-4 text-center">Stay in the Loop</h3>
+      <p class="text-center mb-6">Join the newsletter for exclusive previews, behind-the-scenes insights, and giveaways.</p>
+      <form action="#" class="max-w-lg mx-auto flex flex-col sm:flex-row">
+        <input type="email" placeholder="Your email" class="flex-grow px-4 py-3 rounded-lg text-gray-900" required>
+        <button type="submit" class="mt-4 sm:mt-0 sm:ml-4 bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2025 M. R. Ball. All rights reserved.</p>
+      <div class="mt-4 space-x-4">
+        <a href="#" class="hover:text-white">Facebook</a>
+        <a href="#" class="hover:text-white">Twitter</a>
+        <a href="#" class="hover:text-white">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
